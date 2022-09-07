@@ -200,7 +200,7 @@ I created the API to give alist of the admin license candidates.
 PR: - [feat(API): get admin-license candidates](https://github.com/fossology/fossology/pull/2295)  
 
 
-## Documentation
+## Documentation:📄
 
 During the GSoC period, I got the time to create and organize documentation for both the [**Fossology UI**](https://github.com/fossology/FOSSologyUI) and Fossology [**REST-API**](https://github.com/fossology/fossology). The documentation contains all the user and developer information of the project and is organized in a way to be easily accessible by all.
 
