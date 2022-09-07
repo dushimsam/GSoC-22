@@ -7,7 +7,7 @@
         <img src="https://64.media.tumblr.com/c93f16953341ab06acd12b493659bdee/tumblr_mr68hhmVE11r5ikx8o1_400.gif" width="100">
 </p>
 
-![Logo](/Assets/GSoC-FOSSology.png)
+![image](https://user-images.githubusercontent.com/66276301/188962690-5869b53c-99bb-4012-b13f-443832568f7e.png)
 
 ## Google Summer of Code 2022 🚩 Report: "REST API and UI improvements" 👨‍💻
 <!-- 
@@ -206,24 +206,34 @@ During the GSoC period, I got the time to create and organize documentation for 
 
 The weekly documentation of updates can be found at [**FOSSology/gsoc**](https://fossology.github.io/gsoc/docs/2022/ui/updates/samuel/2021-06-24)
 
+
+<h1 align="center">👨🏻‍🏫 DELIVERABLES <img src="https://api.ezeelo.com/Scripts/QRCode/Done.gif" width="40"></h1>
+
+| Tasks   | Planned | Completed     | Remarks    |
+| :---:       |    :----:   |    :---:      |    :---:      |
+| Added more than 5 new UI features     | Yes       | :heavy_check_mark: | Added new pages and improved the existing UI. |
+| Exposed more than 12 REST APIs  | Yes        | :heavy_check_mark:  | Exposed more APIs on the backend |
+| Fix the existing bugs| Yes | :heavy_check_mark: | Fixed some UI issues and improved REST APIs|
+
+
 ## Future enhancements:🚀
 
 - Adding the skeleton loading on the UI components when the items are being fetched.
 - Adding search utilities on the select components from the UI.
-- Adding the pagination to the GET list APIs.
-- Completing all the pages on the License Administration.
-- Adding more REST-APIs.
+- Adding the pagination to the GET list APIs where appropriate and it's applicable.
+- Completing to add all the remaining pages on the License Administration Section.
+- Adding more REST-APIs from the backend.
 
 ## Major Takeaways: 📚
 
 - The project has familiarized me to write clean code for the REST-API end points.
-- I have taught how to write smart urls for my end points.
-- I explored the best practices of writing Javascript codes from React.
-- Gave me the tangible experience of working remotely.
-- Gained the confidence of working on large codebases with enormous community of contributors.
-- I learned collaboration and working in a team in a productive way.
-- Got cool experience on contributing on the opensource projects.
-- The last but not least i learned how to code like an expert by refering to the talented engineers. 😂
+- I was taught how to write smart urls for my end points.
+- I explored the best practices of writing Javascript codes specifically for React Js.
+- Left me with a tangible experience of working remotely.
+- Gained the confidence of working on large codebases and learned how to meintain consistency in the enormous community of contributors.
+- Furthermore ,I learned the power of collaboration and working in a team.
+- Got cool experience on contributing to the opensource projects.
+- The last but not least i learned how to code like an expert by refering to the talented engineers a broad.😂
 
 ## Links of work done: 🎯
 
