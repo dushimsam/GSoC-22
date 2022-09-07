@@ -126,37 +126,36 @@ PR: - [feat(API): delete user group](https://github.com/fossology/fossology/pull
 
 I created the end point to return the list of the groups that can be deleted to the calling client. Some groups at fossology are there by default and cannot be deleted. On the delete-group page from the UI needed to know which groups to be listed down which are the ones that are possible to be removed.
 
-Sometimes the user needs to see the Groups which he has a privilege of deleting. The API returns a list of those groups.
-
 ![image](https://user-images.githubusercontent.com/66276301/188794792-a8d47911-022b-4021-9086-982bd6b7b434.png)
 
 
 PR: - [feat(API): list groups that can be deleted](https://github.com/fossology/fossology/pull/2247) 
 
-iii. GET GROUP MEMBERS WITH ROLES
+**iii. GET GROUP MEMBERS WITH THEIR ROLES**
 
-There were a need for the REST API to get all the group members with corresponding roles. The API could be used whlie managing the users on the UI.
+I created the REST-API to return the a list of all group members from a specific group with corresponding roles. This API is integrated on the UI to allow the Admin view all group members from any specific group from the UI.
 
 ![image](https://user-images.githubusercontent.com/66276301/188795223-116dc03e-455a-4ef1-9c47-4f95fc817170.png)
 
 PR: - [feat(API): get group members with corresponding roles](https://github.com/fossology/fossology/pull/2251) 
 
-iv. CHANGE GROUP MEMBER'S PERMISSION
+**iv. CHANGE GROUP MEMBER'S PERMISSION**
 
-The API changes the permission of the specified user and assigns a new role in the group.
+I created the API for modifying the permission of any member from a particular group. for-instance we want to change a specific member from being an Advisor to an Admin. This API manages that work.
 
 PR: - [feat(API): change group member's permission](https://github.com/fossology/fossology/pull/2259) 
 
-v. REMOVE MEMBER FROM GROUP
+**v. REMOVE MEMBER FROM GROUP**
+
+I created the API to remove a specific user from a particular group. Instead of changing the permission of the user from the group only , we may also need to remove him/her permanently, this functionality is implemented by the API.
 
 ![image](https://user-images.githubusercontent.com/66276301/188797257-b4f33e6f-d964-4c10-9089-51ac2a8f9e9d.png)
 
 PR: - [feat(API): remove member from group](https://github.com/fossology/fossology/pull/2269)
 
-v. ADD USER TO A GROUP
+**vi. ADD USER TO A GROUP**
 
-The API adds a user to the group as the new member. If the user is removed from the group , it could be a challenge
-when we re-add him back into the group.
+I created the API to add the user who is not a part of the group as a member. Once the User is removed from the group, this API makes it possible to add him/her back into the group again.
 
 ![image](https://user-images.githubusercontent.com/66276301/188796265-784755eb-c848-486e-8634-1ef98fc41261.png)
 
@@ -165,9 +164,41 @@ PR: - [feat(API): feat(API): add user to a group. ](https://github.com/fossology
 
 ### 2. MAINTENANCE
 
+I created the API to initiate the running of the fossology maintenance operations. This is a POST based API which requires the list of options in the request body from the client whose operations are to be run on the backend side.
+
+![image](https://user-images.githubusercontent.com/66276301/188864304-7ef18a93-ceba-4f5a-bea3-3609cb2d0a65.png)
+
+PR: - [feat(API): REST-API to initiate FOSSology maintenance. ](https://github.com/fossology/fossology/pull/2290)  
 
 
 ### 3. LICENSE
 
-1. Added a new Page for Running Fossology Maintenance Operations
+
+**i. IMPORT LICENSE**
+
+I created the REST-API to import the uploaded csv-license file into the backend. The API also returns the appropriate message if the license file was already imported before to handle the existence of duplicates.
+
+![image](https://user-images.githubusercontent.com/66276301/188865187-dda353a5-ee31-49c4-aec9-4e8d6a6521ad.png)
+
+PR: - [feat(API): import csv-license file ](https://github.com/fossology/fossology/pull/2292)  
+
+
+**ii. REMOVE ADMIN-LICENSE-CANDIDATE API**
+
+I created the API to remove any admin-candidate-license from the database. The API provides more authorization features by allowing only admin to delete a license.
+
+![image](https://user-images.githubusercontent.com/66276301/188866229-5b7f3e97-2061-4067-b339-9df1966237d2.png)
+
+PR: - [feat(API): delete admin-license candidate](https://github.com/fossology/fossology/pull/2298)  
+
+**iii. GET ADMIN-LICENSE CANDIDATES API**
+
+I created the API to give alist of the admin license candidates.
+
+![image](https://user-images.githubusercontent.com/66276301/188867410-93606941-407a-4795-8cd4-be071dff8363.png)
+
+PR: - [feat(API): get admin-license candidates](https://github.com/fossology/fossology/pull/2295)  
+
+
+
 
