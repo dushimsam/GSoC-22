@@ -1,9 +1,20 @@
-# GSoC-22
-The final report about my Google summer of Code 2022 contributions at Fossology
+<h1 align="center">Google Summer of Code 2022 <img src="https://media2.giphy.com/media/KB8MHRUq55wjXVwWyl/source.gif" width="50"></h1>
 
-##GSoC’21 with FOSSology
+<p align="center"><i>A full report on my Google Summer of Code 2022 work with FOSSology</i></p>
+<p align="center"><i>Project: "REST API and UI improvements" </i>  👨‍💻</p>
 
-![image](https://user-images.githubusercontent.com/66276301/188545938-e734fddc-e722-46e1-bd5e-e9f6c17a76ed.png)
+<p align="center">
+        <img src="https://64.media.tumblr.com/c93f16953341ab06acd12b493659bdee/tumblr_mr68hhmVE11r5ikx8o1_400.gif" width="100">
+</p>
+
+![Logo](/Assets/GSoC-FOSSology.png)
+
+## Google Summer of Code 2022 🚩 Report: "REST API and UI improvements" 👨‍💻
+
+![ViewCount](https://views.whatilearened.today/views/github/dushimsam/GSoC-2022.svg)
+![GitHub](https://img.shields.io/github/followers/dushimsam?style=social)
+![Twitter](https://img.shields.io/twitter/follow/dushimsam?style=social)
+![GitHub Stars](https://img.shields.io/github/stars/dushimsam/GSoC-2022?style=social)
 
 About me 👩‍💻
 
