@@ -35,7 +35,7 @@ During this period i have been working on different modules of the project in th
 
 Let's dive into each category in details to showcase all the contributions with the corresponding screenshots where possible and the respective links to the Pull requests.
 
-##  FEATURE ENHANCEMENT
+##  FEATURE ENHANCEMENT AND BUG FIX  :bug:
 
 I fixed the existing problem that could arise in uploads such as  FILE , VCS or the ULR type. After submitting the file to the backend for-instance the client could also wait up to 10 adjacent calls checking if the ununpack and adj2nest agents has completed their role on the uploaded item so that it can goes on requesting for the creation of the corresponding job of the item.
 
@@ -52,7 +52,7 @@ My work here was to merge these processes into one in other words through one up
 - [fix(MULTIPLE-API-CALLS) merge multiple upload-api calls into one #2](https://github.com/fossology/FOSSologyUI/pull/249)
 
 
-##  UI EMPROVEMENT (FRONTEND) 
+##  UI EMPROVEMENT (FRONTEND) :sparkles:
  
 The major contributions on the frontend side in this period was focused on enhancing the 3 modules of the project which are **GROUPS** , **FOSSOLOGY MAINTENANCE** and **LICENSE**.
 
@@ -107,7 +107,7 @@ The page i created allows the user to upload the license csv file with correspon
 
 Pull Request : [feat(UI): Import CSV-license file PAGE](https://github.com/fossology/FOSSologyUI/pull/259)
 
-## REST-APIS (BACKEND) 
+## REST-APIS (BACKEND) :sparkles:
 
 I fixed and created the new REST-APIs on the fossology backend. Some pages on the UI were not integrated due to the absense of the required end-points to be consumed. Others were there but some of them could not work as expected. My work on the backend was to fix and introduce new END-POINTS there. Some of my major modules i focused on to improve were **GROUPS** , **UPLOADS** , **MAINTENANCE** AND **LICENSE**.
 
@@ -199,6 +199,45 @@ I created the API to give alist of the admin license candidates.
 
 PR: - [feat(API): get admin-license candidates](https://github.com/fossology/fossology/pull/2295)  
 
+
+## Documentation
+
+During the GSoC period, I got the time to create and organize documentation for both the [**Fossology UI**](https://github.com/fossology/FOSSologyUI) and Fossology [**REST-API**](https://github.com/fossology/fossology). The documentation contains all the user and developer information of the project and is organized in a way to be easily accessible by all.
+
+The weekly documentation of updates can be found at [**FOSSology/gsoc**](https://fossology.github.io/gsoc/docs/2022/ui/updates/samuel/2021-06-24)
+
+## Future enhancements:🚀
+
+- Adding the skeleton loading on the UI components when the items are being fetched.
+- Adding search utilities on the select components from the UI.
+- Adding the pagination to the GET list APIs.
+- Completing all the pages on the License Administration.
+- Adding more REST-APIs.
+
+## Major Takeaways: 📚
+
+- The project has familiarized me to write clean code for the REST-API end points.
+- I have taught how to write smart urls for my end points.
+- I explored the best practices of writing Javascript codes from React.
+- Gave me the tangible experience of working remotely.
+- Gained the confidence of working on large codebases with enormous community of contributors.
+- I learned collaboration and working in a team in a productive way.
+- Got cool experience on contributing on the opensource projects.
+- The last but not least i learned how to code like an expert by refering to the talented engineers. 😂
+
+## Links of work done: 🎯
+
+### Pull Requests 🔗
+
+- [Fossology](https://github.com/fossology/fossology/pulls?q=is%3Apr+author%3Adushimsam)
+- [FossologyUI](https://github.com/fossology/FOSSologyUI/pulls?q=is%3Apr+author%3Adushimsam)
+
+# Let's get connected!
+
+- [LinkedIn](https://www.linkedin.com/in/hastagab/)
+- [GitHub](https://github.com/dushimsam)
+- [Twitter](https://twitter.com/dushsamuel)
+ 
 
 
 
