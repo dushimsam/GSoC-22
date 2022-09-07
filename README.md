@@ -234,7 +234,7 @@ The weekly documentation of updates can be found at [**FOSSology/gsoc**](https:/
 
 # Let's get connected!
 
-- [LinkedIn](https://www.linkedin.com/in/hastagab/)
+- [LinkedIn](https://www.linkedin.com/in/samuel-dushimimana-364a1919)
 - [GitHub](https://github.com/dushimsam)
 - [Twitter](https://twitter.com/dushsamuel)
  
