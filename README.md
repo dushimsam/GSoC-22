@@ -119,6 +119,12 @@ The API changes the permission of the specified user and assigns a new role in t
 
 PR: - [feat(API): change group member's permission](https://github.com/fossology/fossology/pull/2259) 
 
+v. REMOVE MEMBER FROM GROUP
+
+![image](https://user-images.githubusercontent.com/66276301/188797257-b4f33e6f-d964-4c10-9089-51ac2a8f9e9d.png)
+
+PR: - [feat(API): remove member from group](https://github.com/fossology/fossology/pull/2269)
+
 v. ADD USER TO A GROUP
 
 The API adds a user to the group as the new member. If the user is removed from the group , it could be a challenge
@@ -130,6 +136,7 @@ PR: - [feat(API): feat(API): add user to a group. ](https://github.com/fossology
 
 
 ### 2. MAINTENANCE
+
 
 
 ### 3. LICENSE
