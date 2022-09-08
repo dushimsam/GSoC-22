@@ -202,7 +202,7 @@ PR: - [feat(API): get admin-license candidates](https://github.com/fossology/fos
 
 ## Documentation:📄
 
-During the GSoC period, I got the time to create and organize documentation for both the [**Fossology UI**](https://github.com/fossology/FOSSologyUI) and Fossology [**REST-API**](https://github.com/fossology/fossology). The documentation contains all the user and developer information of the project and is organized in a way to be easily accessible by all.
+During the GSoC period, I got the time to create and organize documentation for both the [**FOSSology UI**](https://github.com/fossology/FOSSologyUI) and FOSSology [**REST-API**](https://github.com/fossology/fossology). The documentation contains all the user and developer information of the project and is organized in a way to be easily accessible by all.
 
 The weekly documentation of updates can be found at [**FOSSology/gsoc**](https://fossology.github.io/gsoc/docs/2022/ui/updates/samuel/2021-06-24)
 
@@ -212,9 +212,9 @@ The weekly documentation of updates can be found at [**FOSSology/gsoc**](https:/
 | Tasks   | Planned | Completed     | Remarks    |
 | :---:       |    :----:   |    :---:      |    :---:      |
 | Adding new pages and improved existing UI   | Yes       | :heavy_check_mark: | The UI still needs more work both on the look and functionalities to enhance the user experience. |
-| Adding almost all APIs on GROUPs module , Maintenance and License   | Yes        | :heavy_check_mark:  | Exposed more APIs on the backend |
+| Adding almost all APIs on GROUPs module , Maintenance and License   | Yes        | :heavy_check_mark:  | More APIs will continously need to be added as the UI Migration progresses |
 | Fixing some potential the existing bugs| Yes | :heavy_check_mark: | There're still alot of issues to work on , escpecially on the side of  [FOSSology](https://github.com/fossology/fossology/issues) |
-| Fixing Vulnerable Fossology UI's dependencies| NO (WAS OPTIONAL) | :x: | Dependencies are continously added so this's approgressive task|
+| Fixing Vulnerable FOSSology UI's dependencies| NO (WAS OPTIONAL) | :x: | Dependencies are continously added so this's approgressive task|
 | Integrating OAuth 2.0 | NO (WAS OPTIONAL) | :x: | Got the overview still needs more lessons to learn how to integrate it in the existing projects|
 
 ## Future enhancements:🚀
@@ -240,8 +240,8 @@ The weekly documentation of updates can be found at [**FOSSology/gsoc**](https:/
 
 ### Pull Requests 🔗
 
-- [Fossology](https://github.com/fossology/fossology/pulls?q=is%3Apr+author%3Adushimsam)
-- [FossologyUI](https://github.com/fossology/FOSSologyUI/pulls?q=is%3Apr+author%3Adushimsam)
+- [FOSSology](https://github.com/fossology/fossology/pulls?q=is%3Apr+author%3Adushimsam)
+- [FOSSologyUI](https://github.com/fossology/FOSSologyUI/pulls?q=is%3Apr+author%3Adushimsam)
 
 # Let's get connected!
 
