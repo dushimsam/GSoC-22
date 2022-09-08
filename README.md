@@ -211,10 +211,11 @@ The weekly documentation of updates can be found at [**FOSSology/gsoc**](https:/
 
 | Tasks   | Planned | Completed     | Remarks    |
 | :---:       |    :----:   |    :---:      |    :---:      |
-| Added more than 5 new UI features     | Yes       | :heavy_check_mark: | Added new pages and improved the existing UI. |
-| Exposed more than 12 REST APIs  | Yes        | :heavy_check_mark:  | Exposed more APIs on the backend |
-| Fix the existing bugs| Yes | :heavy_check_mark: | Fixed some UI issues and improved REST APIs|
-
+| Adding new pages and improved existing UI   | Yes       | :heavy_check_mark: | The UI still needs more work both on the look and functionalities to enhance the user experience. |
+| Adding almost all APIs on GROUPs module , Maintenance and License   | Yes        | :heavy_check_mark:  | Exposed more APIs on the backend |
+| Fixing some potential the existing bugs| Yes | :heavy_check_mark: | There're still alot of issues to work on , escpecially on the side of  [FOSSology](https://github.com/fossology/fossology/issues) |
+| Fixing Vulnerable Fossology UI's dependencies| NO (WAS OPTIONAL) | :x: | Dependencies are continously added so this's approgressive task|
+| Integrating OAuth 2.0 | NO (WAS OPTIONAL) | :x: | Got the overview still needs more lessons to learn how to integrate it in the existing projects|
 
 ## Future enhancements:🚀
 
