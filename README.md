@@ -33,7 +33,7 @@ During this period i have been working on different modules of the project in th
 
 - **BUILDING REST APIS:** The formal backend did not expose all the required APIs to satisfy the UI. I raised more APIs that were on demand to be consumed by the client.
 
-Let's dive into each category in details to showcase all the contributions with the corresponding screenshots where possible and the respective links to the Pull requests.
+Let's dive into each category in details to showcase all the contributions with the corresponding tests in screenshots where possible and the respective links to the Pull requests.
 
 ##  FEATURE ENHANCEMENT AND BUG FIX  :bug:
 
