@@ -60,7 +60,7 @@ The major contributions on the frontend side in this period was focused on enhan
 
 **i. DELETE GROUP PAGE**
 
-Created the Delete group page to avail the user to delete a particular group. I developed the page in the REACT Js and the useful components for the page such as the POP-UP modal. This UI work was also proceded by integrating the page to the REST-APIs to make it more dynammic.
+Created the Delete group page to avail the user to delete a particular group. I developed the page in the REACT Js and the useful components for the page such as the POPUP modal. This UI work was also proceded by integrating the page to the REST-APIs to make it more dynammic.
 
 ![image](https://user-images.githubusercontent.com/66276301/188789526-a496d990-6fe2-4109-a862-2452fa32a527.png)
 
@@ -85,7 +85,7 @@ My ui-page has satisfied all requirements that were requested.
 
 ### 2. MAINTENANCE
 
-Created the maintenance page to help the user request the running of the fossology maintenance operations. The operations can like validating folders , removing specific rows from the database , removing files and tables etc.
+Created the maintenance page to help the user request the running of the FOSSology maintenance operations. The operations can be like validating folders , removing specific rows from the database , removing files and tables etc.
 The work involved were to create the UI Page and integrate it to the respective end point.
 
 ![image](https://user-images.githubusercontent.com/66276301/188791715-3093c956-19fd-448f-a8af-b002443f4b78.png)
@@ -109,14 +109,14 @@ The page i created allows the user to upload the license csv file with correspon
 
 ## REST-APIS (BACKEND) :sparkles:
 
-I fixed and created the new REST-APIs on the fossology backend. Some pages on the UI were not integrated due to the absense of the required end-points to be consumed. Others were there but some of them could not work as expected. My work on the backend was to fix and introduce new END-POINTS there. Some of my major modules i focused on to improve were **GROUPS** , **UPLOADS** , **MAINTENANCE** AND **LICENSE**.
+I fixed and created the new REST-APIs on the FOSSology backend. Some pages on the UI were not integrated due to the absense of the required end-points to be consumed. Others were there but some of them could not work as expected. My work on the backend was to fix and introduce new END-POINTS there. Some of my major modules i focused on to improve were **GROUPS** , **UPLOADS** , **MAINTENANCE** AND **LICENSE**.
 
 
 ### 1. GROUPS
 
 **i. DELETE GROUP API**
 
-I added the delete functionality from the groups module to remove any specific deletable group. This API was required to be consumed by the Delete group page. Through the given **GROUP_ID**__ in the request params, my API can manage the rest of the work.
+I added the delete functionality from the groups module to remove any specific deletable group. This API was required to be consumed by the Delete group page. Through the given **GROUP_ID** in the request params, my API can manage the rest of the work.
 
 ![image](https://user-images.githubusercontent.com/66276301/188793517-c67f6f36-32a1-49f9-b7a9-1302efb379e1.png)
 
@@ -124,7 +124,7 @@ I added the delete functionality from the groups module to remove any specific d
 
 **ii. GET DELETABLE GROUPS**
 
-I created the end point to return the list of the groups that can be deleted to the calling client. Some groups at fossology are there by default and cannot be deleted. On the delete-group page from the UI needed to know which groups to be listed down which are the ones that are possible to be removed.
+I created the end point to return the list of the groups that can be deleted to the calling client. Some groups at FOSSology are there by default and cannot be deleted. The delete-group page from the UI needed to know which groups to be listed down which should be the ones that are possible to be removed.
 
 ![image](https://user-images.githubusercontent.com/66276301/188794792-a8d47911-022b-4021-9086-982bd6b7b434.png)
 
@@ -164,7 +164,7 @@ I created the API to add the user who is not a part of the group as a member. On
 
 ### 2. MAINTENANCE
 
-I created the API to initiate the running of the fossology maintenance operations. This is a POST based API which requires the list of options in the request body from the client whose operations are to be run on the backend side.
+I created the API to initiate the running of the FOSSology maintenance operations. This is a POST based API which requires the list of options in the request body from the client whose operations are to be run on the backend side.
 
 ![image](https://user-images.githubusercontent.com/66276301/188864304-7ef18a93-ceba-4f5a-bea3-3609cb2d0a65.png)
 
@@ -176,7 +176,7 @@ I created the API to initiate the running of the fossology maintenance operation
 
 **i. IMPORT LICENSE**
 
-I created the REST-API to import the uploaded csv-license file into the backend. The API also returns the appropriate message if the license file was already imported before to handle the existence of duplicates.
+I created the REST-API to import the uploaded csv-license file into the backend. The API also returns the appropriate message if the license file was already imported before to handle the occurence of duplicates.
 
 ![image](https://user-images.githubusercontent.com/66276301/188865187-dda353a5-ee31-49c4-aec9-4e8d6a6521ad.png)
 
@@ -224,6 +224,7 @@ The weekly documentation of updates can be found at [**FOSSology/gsoc**](https:/
 - Adding the pagination to the GET list APIs where appropriate and it's applicable.
 - Completing to add all the remaining pages on the License Administration Section.
 - Adding more REST-APIs from the backend.
+- Implementing Data caching on the UI to speed up the data display.
 
 ## Major Takeaways: 📚
 
@@ -232,9 +233,9 @@ The weekly documentation of updates can be found at [**FOSSology/gsoc**](https:/
 - I explored the best practices of writing Javascript codes specifically for React Js.
 - Left me with a tangible experience of working remotely.
 - Gained the confidence of working on large codebases and learned how to meintain consistency in the enormous community of contributors.
-- Furthermore ,I learned the power of collaboration and working in a team.
+- I learned the power of collaboration and working in a team.
 - Got cool experience on contributing to the opensource projects.
-- The last but not least i learned how to code like an expert by refering to the talented engineers a broad.😂
+- The last but not least i learned how to code like an expert , it was a great privilege to learn from to the talented engineers a broad.😂
 
 ## Links of work done: 🎯
 
