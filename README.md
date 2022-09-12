@@ -235,7 +235,7 @@ The weekly documentation of updates can be found at [**FOSSology/gsoc**](https:/
 - Gained the confidence of working on large codebases and learned how to meintain consistency in the enormous community of contributors.
 - I learned the power of collaboration and working in a team.
 - Got cool experience on contributing to the opensource projects.
-- The last but not least i learned how to code like an expert , it was a great privilege to learn from to the talented engineers a broad.😂
+- The last but not least i learned how to code like an expert , it was a great privilege to learn from the previous work of the talented engineers a broad.
 
 ## Links of work done: 🎯
 
